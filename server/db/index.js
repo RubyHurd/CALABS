@@ -3,13 +3,23 @@ const mongoose = require('mongoose')
 mongoose.Promise = global.Promise
 let MONGODB_URI;
 
-if (process.env.MONGODB_URI) {
-	MONGODB_URI = process.env.MONGODB_URI
-	mongoose.connect(process.env.MONGODB_URI)
-} else {
-	MONGODB_URI = 'mongodb://localhost/calabs-test1'
-	mongoose.connect(MONGODB_URI) // local mongo url
-}
+//if (process.env.MONGODB_URI) {
+	//MONGODB_URI = process.env.MONGODB_URI
+	//mongoose.connect(process.env.MONGODB_URI)
+//} else {
+	//MONGODB_URI = 'mongodb://localhost/calabs-test1'
+	//mongoose.connect(MONGODB_URI) // local mongo url
+//}
+mongoose.connect(
+	process.env.MONGODB_URI || 'mongodb://localhost/calabs',
+	{
+	  useNewUrlParser: true,
+	  useUnifiedTopology: true,
+	  useCreateIndex: true,
+	  useFindAndModify: false
+	}
+  );
+
 // should mongoose.connection be put in the call back of mongoose.connect???
 const db = mongoose.connection
 db.on('error', err => {
