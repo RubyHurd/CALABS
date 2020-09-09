@@ -1,2 +1,2 @@
-# Project-3
+# CALABS
 Work Scheduling App
