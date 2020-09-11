@@ -18,7 +18,7 @@ Managers can create/edit announcements.
 Employees can view announcements.
 
 Technology Used
-Bootstrap CSS
+Materialize CSS
 Node.js
 React.js
 Passport
