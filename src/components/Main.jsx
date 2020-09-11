@@ -50,23 +50,23 @@ class Main extends React.Component {
 						<div className="row">
 							<div className="col s12 m4">
 								<div className="icon-block">
-									<h2 className="center light-blue-text"><i className="material-icons home">flash_on</i></h2>
+									<h2 className="center light-blue-text"><i className="material-icons home">event</i></h2>
 									<h5 className="center">Quick Scheduling</h5>
-									<p className="light"> an easy-to-use online employee management app. Keep track of each employee’s schedule. </p>
+									<p className="light"> An easy-to-use online shift scheduling management app with announcement feature to keep everyone informed of updates. </p>
 								</div>
 							</div>
 							<div className="col s12 m4">
 								<div className="icon-block">
-									<h2 className="center light-blue-text"><i className="material-icons home">group</i></h2>
-									<h5 className="center">Real time Updating</h5>
-									<p className="light">Managers can Add, Remove or Update Employees, And thier schedules, Also Managers can Add An Announcement to all employees, The app automatically updates changes in real time.</p>
+									<h2 className="center light-blue-text"><i className="material-icons home">supervisor_account</i></h2>
+									<h5 className="center">Real-Time Updating</h5>
+									<p className="light">Managers can Add, Remove or Update employees, and their schedules, also managers can add an announcement to all employees. CALABS automatically shows all changes in real time.</p>
 								</div>
 							</div>
 							<div className="col s12 m4">
 								<div className="icon-block">
-									<h2 className="center light-blue-text"><i className="material-icons home">settings</i></h2>
-									<h5 className="center">Easy to work with</h5>
-									<p className="light">With the CALABS scheduler App, Managers can quickly see who’s working, Who’s scheduled and who’s available. </p>
+									<h2 className="center light-blue-text"><i className="material-icons home">touch_app</i></h2>
+									<h5 className="center">Simple to Use</h5>
+									<p className="light">With the CALABS scheduler App, Managers can quickly see who’s working, who is scheduled and who is available. </p>
 								</div>
 							</div>
 						</div>
@@ -78,7 +78,7 @@ class Main extends React.Component {
 					<div className="footer-copyright">
 						<div className="container">
 							<div className="col  s12 white-text credits">
-								Created by <a href="https://github.com/margaritag17" target="_blank" >Margarita Gurrola</a> | <a href="https://github.com/RubyHurd" target="_blank" >Ruby Hurd</a> | <a href="https://github.com/susieotto" target="_blank" >Susie Otto</a>
+								Created by <a href="https://github.com/margaritag17" target="_blank" >Margarita</a> | <a href="https://github.com/RubyHurd" target="_blank" >Ruby</a> | <a href="https://github.com/susieotto" target="_blank" >Susie</a>
 							</div>
 						</div>
 					</div>
